@@ -20,10 +20,8 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root" class="row">
-      <div class="col-3 offset-3">
-        <canvas id="unity-canvas" style="width: 600px; height: 960px; background: #231F20"></canvas>
-      </div>
+    <div>
+      <canvas id="unity-canvas" style="height: 100%; background: #231F20"></canvas>
       <script src="Build/v3.loader.js"></script>
       <script>
         {createUnityInstance(document.querySelector("#unity-canvas"), {
